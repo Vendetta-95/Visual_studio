@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 600px;
+    width: 600px;
+}
+
+#container .cuadrado1 {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#container .cuadrado2 {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#container .cuadrado3 {
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}

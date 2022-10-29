@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    color: #66BFBF;
+    line-height: 2;
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 0 20px 0 20px;
+}
+
+p {
+    margin: 1rem;
+}
+
+h1 {
+    font-family: 'Dancing Script', monospace;
+    font-size: 4rem;
+}
+
+h3 {
+    color: #11999E;
+    font-size: 1.5rem;
+}
+
+
+/*Button config*/
+
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: #11999E;
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6), inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: #2f9a9e;
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6), inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*END Button config*/
+
+#top-container {
+    box-sizing: content-box;
+    background-color: #CDF0EA;
+}
+
+#top-container p {
+    margin: 20px;
+}
+
+#top-container .top-cloud {
+    position: relative;
+    left: 20%;
+}
+
+#top-container .img-mountain {
+    margin: 20px;
+}
+
+#top-container .bottom-cloud {
+    position: absolute;
+}
+
+#middle-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+#middle-container .profile {
+    display: flex;
+    flex-direction: column;
+}
+
+#middle-container .profile img {
+    max-width: 50%;
+    height: auto;
+    align-self: center;
+    border-radius: 50%;
+    border: white 5px solid;
+}
+
+#middle-container .skill-row {
+    width: 50%;
+    margin: 1rem auto;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    border: 5px dashed #66BFBF;
+    border-radius: 10% 20%;
+    min-height: 500px;
+}
+
+#middle-container .skill-row img {
+    width: 90px;
+    height: 90px;
+    margin-right: 10px;
+}
+
+#middle-container .skill-row p {
+    text-align: left;
+    line-height: 1.5;
+}
+
+#middle-container .skill-text {
+    margin: 10px;
+}
+
+#middle-container .contact-me {
+    padding: 4%;
+}
+
+#middle-container .contact-me p {
+    width: 50%;
+    margin: 10px auto;
+}
+
+#bottom-container {
+    background-color: #66BFBF;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+#bottom-container .link-table {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+
+#bottom-container p {
+    font-family: monospace;
+    font-size: .5rem;
+}
+
+#bottom-container .link-table a {
+    color: #11999E;
+}

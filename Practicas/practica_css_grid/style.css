@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    scroll-behavior: smooth;
+}
+
+html {
+    border: 1px solid red;
+}
+
+.main-grid {
+    display: grid;
+    height: 900px;
+    width: 100%;
+    min-height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 10% 80% 10%;
+    grid-gap: 10px;
+}
+
+
+/* Header section*/
+
+#header {
+    grid-row: 1/2;
+    grid-column: 1/6;
+}
